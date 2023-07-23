@@ -1,4 +1,3 @@
-
 import { Module, Router } from 'nodom3';
 export default class App extends Module {
     template() {

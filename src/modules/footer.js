@@ -5,7 +5,7 @@ export default class Footer extends Module {
     template() {
         return `
         <div>
-            helloNodom3!
+            HelloNodom3!
         </div>
        `
     }

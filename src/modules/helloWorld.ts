@@ -5,7 +5,7 @@ export default class Hello extends Module {
     return `
         <div class='hello'>
           <h1>Hello Nodom 3 + TypeScript </h1>
-          <p>推荐 IDE 配置: VSCode + <a href='https://marketplace.visualstudio.com/items?itemName=kyleslie.nodom' target='_blank'>nodom-Vscode</a></p>
+          <p>welcome to <a href='https://gitee.com/weblabsw/nodom3' target='_blank'>nodom</a></p>
           <button x-route='/main/top'>say,Hi!</button>
           <div x-router></div>
         </div>

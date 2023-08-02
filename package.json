@@ -12,7 +12,6 @@
     "core-js": "^3.19.3",
     "cross-env": "^7.0.3",
     "nodom3": "^0.2.1-beta13",
-    "nodomui1": "^0.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",

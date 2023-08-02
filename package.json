@@ -11,7 +11,7 @@
     "@babel/runtime-corejs3": "^7.16.5",
     "core-js": "^3.19.3",
     "cross-env": "^7.0.3",
-    "nodom3": "^0.2.1-beta13",
+    "nodom3": "^0.1.8"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",

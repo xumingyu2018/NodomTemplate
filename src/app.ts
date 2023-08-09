@@ -1,17 +1,19 @@
-
-import { Module, Router } from 'nodom3';
+import { Module, Nodom } from 'nodom3';
 import './modules/helloWorld';
 export default class App extends Module {
     template() {
         return `
-             <div>
-             <img id='logo' alt="Nodom" src='public/logo.png' />
-                 <div x-router/>
+             <div class='hello'>
+                <img id='logo' alt="Nodom" src='public/logo.png' />
+                <ui-button size="small" title='small'>按钮</ui-button>
+                <div x-router/>
              </div>
          `;
     }
     onBeforeFirstRender(){
-       Router.go('/main')
+        Nodom['$Router'].go('/main')
     }
+
+    
 }
 

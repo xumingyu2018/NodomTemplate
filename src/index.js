@@ -1,6 +1,9 @@
 import  App from './app';
-import { nodom} from 'nodom3';
+import { Nodom, Router } from 'nodom3';
+import { initRoute } from './route/route';
 import '@/assets/css/app.css';
 import '@/route/route'
 
-nodom(App, 'div');
+Nodom.app(App)
+Nodom.use(Router);
+initRoute()

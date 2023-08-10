@@ -1,5 +1,4 @@
-import { Module, registModule } from 'nodom3'
-
+import { Module } from 'nodom3'
 
 export default class Main extends Module {
   template() {
@@ -13,4 +12,3 @@ export default class Main extends Module {
        `
   }
 }
-registModule(Main, 'Main');

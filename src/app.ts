@@ -3,7 +3,7 @@ import './modules/helloWorld';
 export default class App extends Module {
     template() {
         return `
-             <div class='hello'>
+             <div>
                 <img id='logo' alt="Nodom" src='public/logo.png' />
                 <div x-router/>
              </div>

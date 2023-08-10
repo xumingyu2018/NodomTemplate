@@ -5,7 +5,6 @@ export default class App extends Module {
         return `
              <div class='hello'>
                 <img id='logo' alt="Nodom" src='public/logo.png' />
-                <ui-button size="small" title='small'>按钮</ui-button>
                 <div x-router/>
              </div>
          `;

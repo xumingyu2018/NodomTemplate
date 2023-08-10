@@ -7,10 +7,6 @@ export function initRoute() {
     {
       path: "/main",
       module: Hello,
-    },
-    {
-      path: "/big",
-    //   module: Footer,
       routes: [
         {
           path: "/top",

@@ -58,15 +58,18 @@ module.exports = {
                         },
                     },
                     {
+                        test: /\.tsx?$/,
+                        include: /node_modules/,
+                        use: 'ts-loader',
+                    },
+                    {
                         test: /\.txt|xlsx$/,
                         type: 'asset/source',
                         generator: {
                             filename: 'files/[base]'
                         }
-                    }, {
-                        test: /\.html$/,
-                        loader: 'html-loader',
-                    }, {
+                    },
+                    {
                         //打包其他资源
                         type: 'asset/source',
                         exclude: [/\.(js|mjs|jsx|ts|tsx|css)$/, /\.html$/, /\.json$/],

@@ -13,7 +13,8 @@
     "cross-env": "^7.0.3",
     "nodom3": "^0.2.1-beta23",
     "nodomui": "^0.0.1-beta1",
-    "ts-loader": "^9.4.4"
+    "ts-loader": "^9.4.4",
+    "url-loader": "^4.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
@@ -26,7 +27,6 @@
     "html-loader": "^3.0.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.4.5",
-    "sass-loader": "^13.3.2",
     "style-loader": "^3.3.3",
     "typescript": "^4.5.4",
     "webpack": "^5.60.0",

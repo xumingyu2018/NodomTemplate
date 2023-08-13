@@ -63,10 +63,26 @@ module.exports = {
                         generator: {
                             filename: 'files/[base]'
                         }
-                    }, {
+                    }, 
+                    {
                         test: /\.html$/,
                         loader: 'html-loader',
-                    }, {
+                    },
+                    {
+                        test: /\.tsx?$/,
+                        include: /node_modules/,
+                        use: 'ts-loader',
+                    },
+                    {
+                        test: /\.(png|jpg|gif|eot|ttf|woff|woff2|svg|svgz)(\?.+)?$/,
+                        use: [{
+                            loader: 'url-loader',
+                            options: {
+                                limit: 10000
+                            }
+                        }]
+                    }, 
+                    {
                         //打包其他资源
                         type: 'asset/source',
                         exclude: [/\.(js|mjs|jsx|ts|tsx|css)$/, /\.html$/, /\.json$/],

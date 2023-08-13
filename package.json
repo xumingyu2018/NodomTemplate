@@ -11,7 +11,8 @@
     "@babel/runtime-corejs3": "^7.16.5",
     "core-js": "^3.19.3",
     "cross-env": "^7.0.3",
-    "nodom3": "^0.2.1-beta23"
+    "nodom3": "^0.2.1-beta23",
+    "nodomui": "^0.0.1-beta1"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
@@ -24,6 +25,8 @@
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.4.5",
     "style-loader": "^3.3.1",
+    "ts-loader": "^9.4.4",
+    "url-loader": "^4.1.1",
     "webpack": "^5.60.0",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.3.1",

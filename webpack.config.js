@@ -34,7 +34,7 @@ module.exports = {
                 use: [{
                     loader: 'babel-loader',
                     options: {
-                        cacheDirectory: true, 
+                        cacheDirectory: false,
                         cacheCompression: false,
                     }
                 }],
@@ -130,9 +130,9 @@ module.exports = {
         modules: [resolved('src'), 'node_modules'],
         mainFields: ['module', 'main']
     },
-    cache: {
-        type: 'filesystem',
-    },
+    // cache: {
+    //     type: 'filesystem',
+    // },
 
 }
 

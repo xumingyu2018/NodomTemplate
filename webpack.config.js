@@ -19,8 +19,7 @@ module.exports = {
           name: (module) => {
             // 生成拆分块名称：模块名称 + 哈希值的一部分
             const moduleFileName = path.basename(module.identifier(), path.extname(module.identifier()));
-            const hash = require('crypto').createHash('md5').update(moduleFileName).digest('hex').substring(0, 8);
-            return `${moduleFileName}_${hash}`;
+            return `${moduleFileName}`;
           },
         },
     },
